@@ -24,4 +24,10 @@ export const environments = {
     privateKey: env.VAPID_PRIVATE_KEY,
     subject: env.VAPID_SUBJECT,
   },
+  aws: {
+    awsRegion: env.AWS_REGION,
+    accessKeyId: env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: env.AWS_SECRET_ACCESS_KEY,
+    bucketName: env.S3_BUCKET_NAME
+  }
 };
